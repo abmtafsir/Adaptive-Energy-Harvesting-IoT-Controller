@@ -3,3 +3,6 @@
 
 abmtafsir@DESKTOP-GLA7MQQ:cd ~/OpenROAD-flow-scripts/flow/results/ihp-sg13g2/edge_ai/base$ 
 abmtafsir@DESKTOP-GLA7MQQ:~/OpenROAD-flow-scripts/flow/results/ihp-sg13g2/edge_ai/base$ klayout -b -r /home/abmtafsir/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/drc/sg13g2_minimal.lydrc -rd in_gds=6_final.gds -rd report_file=6_final_minimal.lyrdb
+
+# To open the report in klayout
+klayout 6_final.gds -m 6_final_minimal.lyrdb
