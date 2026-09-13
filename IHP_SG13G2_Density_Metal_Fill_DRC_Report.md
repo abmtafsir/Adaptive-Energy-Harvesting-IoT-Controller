@@ -40,6 +40,12 @@ klayout -b \
 -rd report_file=6_final_minimal.lyrdb
 ```
 
+To open the report in klayout
+
+```
+klayout 6_final.gds -m 6_final_minimal.lyrdb
+```
+
 ---
 
 # 3. Initial DRC Condition
